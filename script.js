@@ -142,4 +142,18 @@ async function handleFormSubmit(event) {
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector("form");
   form.addEventListener("submit", handleFormSubmit);
+  
+  document.getElementById("reset-btn").addEventListener("click", () => {
+  const form = document.getElementById("preference-form");
+  form.reset(); // reset form ke nilai default
+
+  // Sembunyikan hasil dan loading kalau masih muncul
+  document.getElementById("results").classList.add("hidden");
+  document.getElementById("loading").classList.add("hidden");
+
+  // Kosongkan hasil list kalau masih ada
+  document.getElementById("primary-results").innerHTML = "";
+  document.getElementById("alternative-results").innerHTML = "";
+});
+
 });
