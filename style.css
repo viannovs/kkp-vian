@@ -50,10 +50,22 @@ select, button {
   font-size: 16px;
 }
 
-button {
-  background: var(--primary);
+.btn-primary {
+  background-color: var(--primary);
   color: white;
-  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-reset {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
