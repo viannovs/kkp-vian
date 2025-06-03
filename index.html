@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rekomendasi Kasur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Form Preferensi Kasur</h1>
+    <form id="formPreferensi">
+      <div>
+        <label for="feel">Preferensi Feel</label>
+        <select id="feel" required>
+          <option value="">-- Pilih Feel --</option>
+          <option value="soft">Lembut</option>
+          <option value="medium">Medium</option>
+          <option value="medium firm">Medium Firm</option>
+          <option value="firm">Keras</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="tinggi">Preferensi Tinggi Kasur</label>
+        <select id="tinggi" required>
+          <option value="">-- Pilih Tinggi --</option>
+          <option value="tinggi">Tinggi (&gt; 40 cm)</option>
+          <option value="sedang">Sedang (30–40 cm)</option>
+          <option value="rendah">Rendah (&lt; 30 cm)</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="harga">Preferensi Harga</label>
+        <select id="harga" required>
+          <option value="">-- Pilih Harga --</option>
+          <option value="mahal">Mahal</option>
+          <option value="sedang">Sedang</option>
+          <option value="murah">Murah</option>
+        </select>
+      </div>
+
+      <button type="submit">Cari Rekomendasi</button>
+    </form>
+
+    <div id="hasil"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
