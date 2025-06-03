@@ -1,6 +1,6 @@
 [
   {
-    "kode": "MP",
+    "kode": "Masterpiece",
     "feel": "medium firm",
     "tinggi": 43,
     "tinggi_kategori": "tinggi",
@@ -8,7 +8,7 @@
     "harga_kategori": "High-end"
   },
   {
-    "kode": "NR",
+    "kode": "Natural Response",
     "feel": "medium",
     "tinggi": 42,
     "tinggi_kategori": "tinggi",
@@ -16,7 +16,7 @@
     "harga_kategori": "High-end"
   },
   {
-    "kode": "IC",
+    "kode": "International Classic",
     "feel": "medium",
     "tinggi": 40.5,
     "tinggi_kategori": "sedang",
@@ -24,7 +24,7 @@
     "harga_kategori": "Mid-level"
   },
   {
-    "kode": "GC",
+    "kode": "Grand Classic",
     "feel": "medium firm",
     "tinggi": 39,
     "tinggi_kategori": "sedang",
@@ -32,7 +32,7 @@
     "harga_kategori": "Mid-level"
   },
   {
-    "kode": "WE",
+    "kode": "World Endorsed",
     "feel": "medium firm",
     "tinggi": 37,
     "tinggi_kategori": "sedang",
@@ -40,7 +40,7 @@
     "harga_kategori": "Entry-level"
   },
   {
-    "kode": "CE",
+    "kode": "Chiro Endorsed",
     "feel": "firm",
     "tinggi": 35,
     "tinggi_kategori": "sedang",
@@ -48,7 +48,7 @@
     "harga_kategori": "Entry-level"
   },
   {
-    "kode": "PA",
+    "kode": "Princess Anna",
     "feel": "medium firm",
     "tinggi": 28,
     "tinggi_kategori": "rendah",
@@ -56,7 +56,7 @@
     "harga_kategori": "High-end"
   },
   {
-    "kode": "PE",
+    "kode": "Princess Elizabeth",
     "feel": "medium",
     "tinggi": 26,
     "tinggi_kategori": "rendah",
@@ -64,7 +64,7 @@
     "harga_kategori": "High-end"
   },
   {
-    "kode": "DK",
+    "kode": "Duke",
     "feel": "firm",
     "tinggi": 27,
     "tinggi_kategori": "rendah",
@@ -72,7 +72,7 @@
     "harga_kategori": "Mid-level"
   },
   {
-    "kode": "MQ",
+    "kode": "Marquess",
     "feel": "medium firm",
     "tinggi": 26,
     "tinggi_kategori": "rendah",
@@ -80,7 +80,7 @@
     "harga_kategori": "Mid-level"
   },
   {
-    "kode": "VS",
+    "kode": "Viscountess",
     "feel": "medium",
     "tinggi": 22,
     "tinggi_kategori": "rendah",
