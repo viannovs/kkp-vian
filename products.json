@@ -1,90 +1,101 @@
 [
   {
-    "kode": "Masterpiece",
-    "feel": "medium firm",
-    "tinggi": 43,
-    "tinggi_kategori": "tinggi",
-    "harga": 174300000,
-    "harga_kategori": "High-end"
-  },
-  {
-    "kode": "Natural Response",
-    "feel": "medium",
-    "tinggi": 42,
-    "tinggi_kategori": "tinggi",
-    "harga": 132300000,
-    "harga_kategori": "High-end"
-  },
-  {
-    "kode": "International Classic",
-    "feel": "medium",
-    "tinggi": 40.5,
-    "tinggi_kategori": "sedang",
-    "harga": 88000000,
-    "harga_kategori": "Mid-level"
-  },
-  {
-    "kode": "Grand Classic",
-    "feel": "medium firm",
-    "tinggi": 39,
-    "tinggi_kategori": "sedang",
-    "harga": 59100000,
-    "harga_kategori": "Mid-level"
-  },
-  {
-    "kode": "World Endorsed",
-    "feel": "medium firm",
-    "tinggi": 37,
-    "tinggi_kategori": "sedang",
-    "harga": 47200000,
-    "harga_kategori": "Entry-level"
-  },
-  {
-    "kode": "Chiro Endorsed",
-    "feel": "firm",
-    "tinggi": 35,
-    "tinggi_kategori": "sedang",
-    "harga": 36600000,
-    "harga_kategori": "Entry-level"
-  },
-  {
     "kode": "Princess Anna",
     "feel": "medium firm",
     "tinggi": 28,
-    "tinggi_kategori": "rendah",
+    "material": "full-latex",
     "harga": 208800000,
-    "harga_kategori": "High-end"
+    "gambar": "https://kingkoil.id/uploads/2019/12/23/XaiWJuO2Z7tHprGEycCi3Rh1crKSDWwlY4hDMfBP.jpeg",
+    "link": "https://kingkoil.id/princess/princess-anna"
   },
   {
     "kode": "Princess Elizabeth",
     "feel": "medium",
     "tinggi": 26,
-    "tinggi_kategori": "rendah",
+    "material": "full-latex",
     "harga": 171900000,
-    "harga_kategori": "High-end"
+    "gambar": "https://kingkoil.id/uploads/2019/12/23/P6j1nSZVC4kzrcscB9gBdor6nU2bnD4UdOsaWEkO.jpeg",
+    "link": "https://kingkoil.id/princess/princess-elizabeth"
+  },
+  {
+    "kode": "Masterpiece",
+    "feel": "medium firm",
+    "tinggi": 43,
+    "material": "spring-latex",
+    "harga": 174300000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/ebkvh8kwA8aKb4vqN1Y3R2QsXTnDhump4HEASK5F.jpeg",
+    "link": "https://kingkoil.id/signature-gold-series/masterpiece"
+  },
+  {
+    "kode": "Natural Response",
+    "feel": "medium",
+    "tinggi": 42,
+    "material": "spring-latex",
+    "harga": 132300000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/VsO8aGtDPR0Hvvhm671BJsy4iUHfE6h9ZNGqE5nn.jpeg",
+    "link": "https://kingkoil.id/signature-gold-series/natural-response"
+  },
+  {
+    "kode": "Grand Classic",
+    "feel": "medium firm",
+    "tinggi": 39,
+    "material": "spring-latex",
+    "harga": 59100000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/HV8Jz114TFoqfYRrDmvISMRrrISup4Mt2xKsLOv3.jpeg",
+    "link": "https://kingkoil.id/signature-gold-series/grand-classic"
+  },
+  {
+    "kode": "International Classic",
+    "feel": "medium",
+    "tinggi": 40.5,
+    "material": "spring-latex",
+    "harga": 88000000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/5qqzacVQHUntYGx3yi4QZc6xGuzK4rNHJPxDJ0rA.jpeg",
+    "link": "https://kingkoil.id/signature-gold-series/international-classic"
+  },
+  {
+    "kode": "World Endorsed",
+    "feel": "medium firm",
+    "tinggi": 37,
+    "material": "spring-latex",
+    "harga": 47200000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/hTeuRvSaydGLuTwnur2UxG1E7BFIXO4chTxAbn1v.jpeg",
+    "link": "https://kingkoil.id/signature-gold-series/world-endorsed"
+  },
+  {
+    "kode": "Chiro Endorsed",
+    "feel": "firm",
+    "tinggi": 35,
+    "material": "spring-latex",
+    "harga": 36600000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/VFQBjQDZBTioiF3szfSD9buSMnn7nkFFaKLLqUXs.jpeg",
+    "link": "https://kingkoil.id/signature-gold-series/chiro-endorsed"
+  },
+  {
+    "kode": "Marquess",
+    "feel": "medium firm",
+    "tinggi": 28,
+    "material": "full-latex",
+    "harga": 73700000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/5vTPZ2VrvqRJZ5FpmQIKZDHpuFe9KQxTbRu7tWEL.jpeg",
+    "link": "https://kingkoil.id/a-new-class-of-luxury/marques"
+  },
+  {
+    "kode": "Viscountess",
+    "feel": "medium",
+    "tinggi": 26,
+    "material": "full-latex",
+    "harga": 55900000,
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/MwD4YdNPTZq9T8Olh6qAOGU6I8ugC6q0RJo1uy4K.jpeg",
+    "link": "https://kingkoil.id/a-new-class-of-luxury/viscountess"
   },
   {
     "kode": "Duke",
     "feel": "firm",
     "tinggi": 27,
-    "tinggi_kategori": "rendah",
+    "material": "full-latex",
     "harga": 95800000,
-    "harga_kategori": "Mid-level"
-  },
-  {
-    "kode": "Marquess",
-    "feel": "medium firm",
-    "tinggi": 26,
-    "tinggi_kategori": "rendah",
-    "harga": 73700000,
-    "harga_kategori": "Mid-level"
-  },
-  {
-    "kode": "Viscountess",
-    "feel": "medium",
-    "tinggi": 22,
-    "tinggi_kategori": "rendah",
-    "harga": 55900000,
-    "harga_kategori": "Mid-level"
+    "gambar": "https://kingkoil.id/uploads/2021/5/23/OjZ0tkQCTPocXOc5u1wC5ctqUCu4Kn9wGE9QyBx2.jpeg",
+    "link": "https://kingkoil.id/a-new-class-of-luxury/duke"
   }
 ]
