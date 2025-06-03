@@ -5,7 +5,7 @@
     "tinggi": 43,
     "tinggi_kategori": "tinggi",
     "harga": 174300000,
-    "harga_kategori": "mahal"
+    "harga_kategori": "High-end"
   },
   {
     "kode": "NR",
@@ -13,7 +13,7 @@
     "tinggi": 42,
     "tinggi_kategori": "tinggi",
     "harga": 132300000,
-    "harga_kategori": "mahal"
+    "harga_kategori": "High-end"
   },
   {
     "kode": "IC",
@@ -21,7 +21,7 @@
     "tinggi": 40.5,
     "tinggi_kategori": "sedang",
     "harga": 88000000,
-    "harga_kategori": "sedang"
+    "harga_kategori": "Mid-level"
   },
   {
     "kode": "GC",
@@ -29,7 +29,15 @@
     "tinggi": 39,
     "tinggi_kategori": "sedang",
     "harga": 59100000,
-    "harga_kategori": "sedang"
+    "harga_kategori": "Mid-level"
+  },
+  {
+    "kode": "WE",
+    "feel": "medium firm",
+    "tinggi": 37,
+    "tinggi_kategori": "sedang",
+    "harga": 47200000,
+    "harga_kategori": "Entry-level"
   },
   {
     "kode": "CE",
@@ -37,7 +45,39 @@
     "tinggi": 35,
     "tinggi_kategori": "sedang",
     "harga": 36600000,
-    "harga_kategori": "murah"
+    "harga_kategori": "Entry-level"
+  },
+  {
+    "kode": "PA",
+    "feel": "medium firm",
+    "tinggi": 28,
+    "tinggi_kategori": "rendah",
+    "harga": 208800000,
+    "harga_kategori": "High-end"
+  },
+  {
+    "kode": "PE",
+    "feel": "medium",
+    "tinggi": 26,
+    "tinggi_kategori": "rendah",
+    "harga": 171900000,
+    "harga_kategori": "High-end"
+  },
+  {
+    "kode": "DK",
+    "feel": "firm",
+    "tinggi": 27,
+    "tinggi_kategori": "rendah",
+    "harga": 95800000,
+    "harga_kategori": "Mid-level"
+  },
+  {
+    "kode": "MQ",
+    "feel": "medium firm",
+    "tinggi": 26,
+    "tinggi_kategori": "rendah",
+    "harga": 73700000,
+    "harga_kategori": "Mid-level"
   },
   {
     "kode": "VS",
@@ -45,6 +85,6 @@
     "tinggi": 22,
     "tinggi_kategori": "rendah",
     "harga": 55900000,
-    "harga_kategori": "sedang"
+    "harga_kategori": "Mid-level"
   }
 ]
