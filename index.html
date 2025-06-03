@@ -5,12 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Rekomendasi Kasur Kingkoil</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <body>
   <main>
     <h1>Rekomendasi Kasur Kingkoil</h1>
 
-    <form id="preference-form">
+    <form id="preference-form" aria-label="Form pencarian kasur">
       <label for="feel">Tekstur Kasur (Feel):</label>
       <select id="feel" name="feel" required>
         <option value="">--Pilih Feel--</option>
@@ -35,18 +41,25 @@
         <option value="Entry-level">Entry-level (≤50 juta)</option>
       </select>
 
+      <label for="material">Jenis Material:</label>
+      <select id="material" name="material" required>
+        <option value="">--Pilih Material--</option>
+        <option value="spring-latex">Spring Latex</option>
+        <option value="full-latex">Full Latex</option>
+      </select>
+
       <div class="btn-group">
         <button type="submit" id="submit-btn">Cari Kasur</button>
         <button type="button" id="reset-btn">Reset</button>
       </div>
     </form>
 
-    <section id="loading" class="hidden">
+    <section id="loading" class="hidden" aria-live="polite" role="alert" aria-busy="true">
       <div class="spinner"></div>
       <p>Mencari kasur terbaik untuk Anda...</p>
     </section>
 
-    <section id="results" class="hidden">
+    <section id="results" class="hidden" aria-live="polite">
       <h2>Rekomendasi Utama</h2>
       <ul id="primary-results"></ul>
 
