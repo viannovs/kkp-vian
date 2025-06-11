@@ -2,71 +2,48 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Rekomendasi Kasur Kingkoil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPK Kasur King Koil</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@400;600&display=swap"
-    rel="stylesheet"
-  />
 </head>
 <body>
-  <main>
-    <h1>Rekomendasi Kasur Kingkoil</h1>
+  <h1>Rekomendasi Kasur King Koil</h1>
+  <form id="preference-form">
+    <label for="feel">Feel:</label>
+    <select name="feel" id="feel">
+      <option value="medium">Medium</option>
+      <option value="medium firm">Medium Firm</option>
+      <option value="firm">Firm</option>
+    </select>
 
-    <form id="preference-form" aria-label="Form pencarian kasur">
-      <label for="feel">Tekstur Kasur (Feel):</label>
-      <select id="feel" name="feel" required>
-        <option value="">--Pilih Feel--</option>
-        <option value="firm">Firm</option>
-        <option value="medium">Medium</option>
-        <option value="medium firm">Medium Firm</option>
-      </select>
+    <label for="height">Tinggi Kasur:</label>
+    <select name="height" id="height">
+      <option value="rendah">Rendah (&lt; 26 cm)</option>
+      <option value="sedang">Sedang (26–38 cm)</option>
+      <option value="tinggi">Tinggi (&gt; 38 cm)</option>
+    </select>
 
-      <label for="height">Kategori Tinggi Kasur:</label>
-      <select id="height" name="height" required>
-        <option value="">--Pilih Tinggi--</option>
-        <option value="tinggi">Tinggi (≥39 cm)</option>
-        <option value="sedang">Sedang (26 - 38 cm)</option>
-        <option value="rendah">Rendah (≤25 cm)</option>
-      </select>
+    <label for="price">Harga:</label>
+    <select name="price" id="price">
+      <option value="Entry-level">Entry-level (&lt; 50jt)</option>
+      <option value="Mid-level">Mid-level (50–129jt)</option>
+      <option value="High-end">High-end (&gt;=130jt)</option>
+    </select>
 
-      <label for="price">Kategori Harga:</label>
-      <select id="price" name="price" required>
-        <option value="">--Pilih Harga--</option>
-        <option value="High-end">High-end (≥130 juta)</option>
-        <option value="Mid-level">Mid-level (50 - 130 juta)</option>
-        <option value="Entry-level">Entry-level (≤50 juta)</option>
-      </select>
+    <label for="material">Material:</label>
+    <select name="material" id="material">
+      <option value="spring-latex">Spring Latex</option>
+      <option value="full-latex">Full Latex</option>
+    </select>
 
-      <label for="material">Jenis Material:</label>
-      <select id="material" name="material" required>
-        <option value="">--Pilih Material--</option>
-        <option value="spring-latex">Spring Latex</option>
-        <option value="full-latex">Full Latex</option>
-      </select>
+    <button type="submit">Cari Rekomendasi</button>
+    <button type="button" id="reset-btn">Reset</button>
+  </form>
 
-      <div class="btn-group">
-        <button type="submit" id="submit-btn">Cari Kasur</button>
-        <button type="button" id="reset-btn">Reset</button>
-      </div>
-    </form>
-
-    <section id="loading" class="hidden" aria-live="polite" role="alert" aria-busy="true">
-      <div class="spinner"></div>
-      <p>Mencari kasur terbaik untuk Anda...</p>
-    </section>
-
-    <section id="results" class="hidden" aria-live="polite">
-      <h2>Rekomendasi Utama</h2>
-      <ul id="primary-results"></ul>
-
-      <h2>Alternatif</h2>
-      <ul id="alternative-results"></ul>
-    </section>
-  </main>
+  <div id="results" class="hidden">
+    <h2>Rekomendasi:</h2>
+    <ul id="product-list"></ul>
+  </div>
 
   <script src="script.js"></script>
 </body>
