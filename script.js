@@ -1,8 +1,8 @@
 const bobot = {
   feel: 0.4,
   tinggi: 0.25,
-  harga: 0.25,
-  material: 0.1
+  harga: 0.1,
+  material: 0.25
 };
 
 const feelMap = {
